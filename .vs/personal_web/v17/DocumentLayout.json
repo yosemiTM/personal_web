@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\git_project\\personal_web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_project\\personal_web\\src\\config\\projects.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\projects.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_project\\personal_web\\src\\config\\career.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\career.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_project\\personal_web\\src\\config\\infoConfig.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\infoConfig.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\git_project\\personal_web\\src\\config\\education.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\education.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "projects.ts",
+              "DocumentMoniker": "F:\\git_project\\personal_web\\src\\config\\projects.ts",
+              "RelativeDocumentMoniker": "src\\config\\projects.ts",
+              "ToolTip": "F:\\git_project\\personal_web\\src\\config\\projects.ts",
+              "RelativeToolTip": "src\\config\\projects.ts",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T08:14:01.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "education.ts",
+              "DocumentMoniker": "F:\\git_project\\personal_web\\src\\config\\education.ts",
+              "RelativeDocumentMoniker": "src\\config\\education.ts",
+              "ToolTip": "F:\\git_project\\personal_web\\src\\config\\education.ts",
+              "RelativeToolTip": "src\\config\\education.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T08:04:44.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "career.ts",
+              "DocumentMoniker": "F:\\git_project\\personal_web\\src\\config\\career.ts",
+              "RelativeDocumentMoniker": "src\\config\\career.ts",
+              "ToolTip": "F:\\git_project\\personal_web\\src\\config\\career.ts",
+              "RelativeToolTip": "src\\config\\career.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-25T07:49:58.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "infoConfig.ts",
+              "DocumentMoniker": "F:\\git_project\\personal_web\\src\\config\\infoConfig.ts",
+              "RelativeDocumentMoniker": "src\\config\\infoConfig.ts",
+              "ToolTip": "F:\\git_project\\personal_web\\src\\config\\infoConfig.ts",
+              "RelativeToolTip": "src\\config\\infoConfig.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-24T14:37:57.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

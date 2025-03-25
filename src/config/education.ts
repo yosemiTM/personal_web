@@ -13,24 +13,24 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Tsinghua University',
-      major: 'MBA',
+      school: 'Beijing Institute of Technology(BIT)',
+      major: 'Optoelectronic Information Science and Engineering(Imaging Direction)',
       logo: 'college',
-      start: '2017',
-      end: '2020'
+      start: '2023',
+      end: 'present'
     },
     {
-      school: 'University of Chicago',
-      major: 'Computer Science',
+      school: 'Beijing Institute of Technology(BIT)',
+      major: 'Optoelectronic Information Science and Engineering',
       logo: 'college',
-      start: '2013',
-      end: '2015'
+      start: '2022',
+      end: '2023'
     },
     {
-      school: 'BUPT',
-      major: 'Automation',
+      school: 'Beijing Institute of Technology(BIT)',
+      major: 'Information Science and Engineering',
       logo: 'college',
-      start: '2009',
-      end: '2013'
+      start: '2021',
+      end: '2022'
     },
   ]

@@ -70,7 +70,7 @@ export default async function Home() {
           </ul>
         </div>
 
-        {/* Hobbies & Volunteer */}
+        {/* Hobbies & Volunteer
         <div className="mx-auto flex flex-col max-w-xl gap-6 lg:max-w-none my-4 py-8 border-t border-muted">
           <h2 className="flex flex-row items-center justify-start gap-2 text-xl font-semibold tracking-tight md:text-3xl opacity-80 mb-4">
             <Heart size={28}/>
@@ -87,7 +87,7 @@ export default async function Home() {
               <ActivityCard key={activity.name} activity={activity} titleAs='h3'/>
             ))}
           </ul>
-        </div>
+        </div> */}
 
         {/* Blog Section */}
         <div className="mx-auto flex flex-col max-w-xl gap-6 py-8 my-8 lg:max-w-none border-t border-muted">
@@ -109,7 +109,7 @@ export default async function Home() {
 
           {/* right column */}
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Career />
+            {/* <Career /> */}
             <Education />
           </div>
         </div>

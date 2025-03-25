@@ -1,75 +1,13 @@
 ---
-title: 'My LLM Codegen Workflow'
-description: 'A practical guide to using LLMs for efficient software development'
-date: '2025-02-16'
+title: 'my graduation project'
+description: 'Some details of my graduation design'
+date: '2025-03-01'
 ---
 
-# My LLM Codegen Workflow
+do while magic. ✩₊˚.⋆☾⋆⁺₊✧
 
-tl;dr; Brainstorm spec, then plan a plan, then execute using LLM codegen. Discrete loops. Then magic. ✩₊˚.⋆☾⋆⁺₊✧
-
-## The Process
-
-Here's my current workflow for using LLMs in software development. It's built upon personal experience and conversations with fellow developers. Note that in the fast-moving world of AI, what works today might need adjustment tomorrow.
-
-### Step 1: Idea Refinement
-
-Start with a conversational LLM (like ChatGPT-4) and use this prompt:
-
-```
-Ask me one question at a time so we can develop a thorough, step-by-step spec for this idea. Each question should build on my previous answers, and our end goal is to have a detailed specification I can hand off to a developer. Let's do this iteratively and dig into every relevant detail. Remember, only one question at a time.
-
-Here's the idea: <Your Idea>
-```
-
-After the brainstorming concludes, ask for a comprehensive spec:
-
-```
-Now that we've wrapped up the brainstorming process, can you compile our findings into a comprehensive, developer-ready specification? Include all relevant requirements, architecture choices, data handling details, error handling strategies, and a testing plan.
-```
-
-Save this as `spec.md` in your repo. This spec can be used for multiple purposes:
-- Code generation
-- Idea validation
-- White paper generation
-- Business model creation
-- Deep research foundation
-
-### Step 2: Planning
-
-Take your spec to a reasoning model and use one of these prompts based on your needs:
-
-For Test-Driven Development:
-```
-Draft a detailed, step-by-step blueprint for building this project. Break it down into small, iterative chunks that build on each other. Make sure the steps are small enough to be implemented safely with strong testing, but big enough to move the project forward.
-
-The output should provide a series of prompts for a code-generation LLM that will implement each step in a test-driven manner. Prioritize best practices, incremental progress, and early testing.
-
-Make sure each prompt builds on previous ones and ends with proper integration. No orphaned code!
-```
-
-For Regular Development:
-```
-Draft a detailed, step-by-step blueprint for building this project. Break it down into small, iterative chunks that build on each other. Make sure the steps are small enough to be implemented safely but big enough to move the project forward.
-
-The output should provide a series of prompts for a code-generation LLM that will implement each step. Prioritize best practices and incremental progress.
-
-Make sure each prompt builds on previous ones and ends with proper integration. No orphaned code!
-```
-
-Save the resulting plan as `prompt_plan.md` and generate a `todo.md` checklist to track progress.
-
-## Time Investment
-
-This entire planning process typically takes about 15 minutes. The investment in proper planning pays off significantly during the implementation phase, leading to more structured and maintainable code.
-
-## Why This Works
-
-This approach provides several benefits:
-1. Clear documentation from the start
-2. Well-structured development plan
-3. Manageable, testable steps
-4. Consistent progress tracking
-5. Reduced complexity in each development phase
-
-Remember: The key is in the iterative nature of the process. Each step builds on the previous one, ensuring that you're always moving forward with a clear understanding of what needs to be done next.
+目标跟踪是计算机视觉领域的基础研究之一，旨在从图像或者视频中准确地识别并追踪目标物体，在智慧城市，农业生成，灾害预警及地质勘探等领域均有着广泛的应用。传统可见光目标跟踪易受到光照条件限制，例如在低光照或者夜间条件下效果不佳，同时收到烟，雾，灰尘等环境影响，跟踪性能会大幅下降。多光谱图像的引入可以有效解决上述问题，多光谱图像是通过捕捉物体在不同波长范围内的反射或辐射能量二获取的图像，通常包括红外和可见光的多个波段，比起常见图像，多光谱图像记录了更加广泛的光谱信息。多光谱图像对于光照变化，阴影，大气散射等环境因素具有一定的鲁棒性，并且不同波段的光谱信息在一定程度上能够减轻环境因素对目标跟踪造成的干扰，提高检测结果的稳定性和可靠性。多光谱图像还具有光谱信息丰富，目标区分度高，上下文信息丰富等优点。由于多光谱目标跟踪相较于传统目标跟踪方法鲁棒性更好，检测精度更高，其正在得到越来越多的关注。而与之适配的基准数据集也在不断完善。
+在实际应用场景下，目标跟踪往往需要在多目标场景下工作，这类跟踪任务，即多目标跟踪(multi-object tracking,MOT)任务在其发展过程中经历了从传统方法阶段倒基于深度学习的不断演进。在传统方法中。需要通过手工设计特征来实现多目标跟踪，这一过程往往十分繁琐且效率低下。此外，传统方法在应对目标尺度变化，相似目标干扰，目标被遮挡等复杂场景时表现不佳，难以实现准确和鲁棒的多目标追踪。然而，随着深度学习技术的发展，特别是卷积神经网络(convolutional neural network,CNN)的兴起，基于深度学习的多目标跟踪方法逐渐崭露头角。基于深度学习的多目标跟踪方法使用CNN来提取目标的视觉特征，然后利用这些特征进行多目标跟踪。这种方法可以更好地适应不同场景下的目标变化，并且在复杂环境中表现出更好的鲁棒性。目前，基于深度学习的多目标跟踪方法已成为多目标跟踪的主流框架，基于深度学习的MOT方法分为基于检测的跟踪(tracking by detection,TBD)和联合检测的跟踪(joint detection tracking,JDT)。TBD算法采用了多阶段设计结构，将检测于跟踪模块分离，使得这两个模块可以单独进行优化。然而，这种设计可能导致不能得到最优解。相比之下,JDT算法融合了检测模块和跟踪模块，虽然提高了推理速度，在简单场景下优于TBD算法，但是在复杂场景下表现不佳。
+基于TBD设计模式的算法包括SORT(simple online and realtime tracking)算法，其利用FRCNN(faster region CNN)进行目标检测，并设计了一种基于卡尔曼滤波器(Kalman filter,KF)和匈牙利算法的实时跟踪器，并利用相邻帧边界框的IoU(intersection over union)距离处理目标的短期遮挡，其匹配速度非常快，但无法解决目标长时间遮挡和相似目标干扰等问题，而导致对同一个目标生成大量ID(identity)切换。因此，在SORT的基础上后来提出了DeepSORT算法，其引入ReID(re-identification)网络提取外观特征，对目标进行深度关联度量，匹配策略上同时考虑了运动信息和外观特征，有效降低了被跟踪目标的ID切换，与SORT相比，身份切换数量减少了45%。后续人们提出MOTDT框架，利用R-FCN对观测框进行进一步的前景和背景分类，使用KF完成目标的运动估计；将观测框和跟踪框合并，并做NMS(non-maximum suppression)操作，以修正其中每个目标框的置信度；先基于ReID相似度进行匹配，再对剩余的利用IoU进行关联。基于DeepSort提出的MF-SORT算法，在数据关联中引入目标的运动特征，能够有效且高效地跟踪静态摄像机中的物体。Bot-SORT算法使用全局运动补偿(global motion compensation)技术将相机运动补偿引入跟踪器以解决相机抖动带来的干扰，通过融合IoU距离矩阵和余弦距离矩阵作为新的匹配方法。ByteTrack算法为解决低检测得分而不能跟踪的问题，将每个检测框根据得分分成两类，高分框和低分框进行两次匹配。StrongSORT针对检测缺失和关联缺失的问题，提出了高斯平滑插值算法(Gaussian smoothed interpolation algorithm,GSI)使用高斯过程回归算法来修复插值边界框，用于解决检测缺失的问题；提出了一种外观无关的链接模型(appearance free link model,AFLink),仅利用时空信息来预测两个输入轨迹是否属于同一个目标，用于解决关联缺失的问题。OC-SORT针对高帧率放大使用了KF进行状态估计时的噪声和目标被遮挡而导致状态估计的噪声随着KF更新阶段没有可用观测值而不断累计的问题，设计了以观察为中心的重新更新(observation-centric momentum,OCM),使用目标状态观察来减少目标重识别后的累计噪声。
+基于JDT设计模式的算法包括ConvNet架构，通过改进的R-FCN(region-based fully convolutional network)检测网络，在传统目标检测的分类和回归任务上增加了一个跟踪分支。这样的设计使得模型能够同时进行目标检测和目标跟踪，将跟踪任务转化为预测相邻两帧各目标位置相对偏移量的回归任务。Tracktor++算法的检测部分不仅仅用于前景和背景的进一步分类，还利用回归对目标进行了进一步修正。算法核心在于利用跟踪框和观测框代替原有的RPN(region proposal network)模块，从而得到真正的观测框，最后利用数据关联实现跟踪框和观测框的匹配。FFT(flow fuse tracker)算法基于Tracktor++的框架，增加了一个光流预测分支，将Tracktor++中的跟踪框和观测框变成了光流预测框和观测框。CenterTrack基于Tracktor++框架，将FrRCNN换成CenterNet，除了对相邻两帧利用CenterNet进行检测之外，预测同时存在于两帧中目标的相对位移，由此进行跟踪预测。FairMOT算法通过两个平行的分支来预测像素级的目标得分和ReID特征。这种任务之间的公平性设计使得FairMOT在多目标检测和跟踪任务中都能获得高水平的精度。
+针对传统目标跟踪方法在复杂背景和相似目标场景下跟踪精度不足的难题，选题希望开展基于多光谱图像的目标跟踪方法研究。通过融合多光谱图像处理技术与先进深度学习算法，设计一种多光谱目标跟踪模型，用于从多谱段视频序列中提取目标的时序-光谱特征，从而实现目标的精准定位，并显著提升在复杂场景中的跟踪精度与鲁棒性。同时，选题希望构建一个高维多通道的多光谱目标跟踪数据集用于作为基准集对算法效果进行实际比较，以此得到更为普适的结论。

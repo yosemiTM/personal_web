@@ -3,25 +3,26 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Yomito MQ'
+export const headline = 'a student learn in BeiJing institute of technology.'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+    "你好！Coucou Les Amis! My name is Ma Yiqi,a senior undergraduate student from the school of Optics and Photonics at Beijing Institute of Technology（BIT）,majoring in Optoelectronic Information Science and Engineering(Imaging Direction)."
+export const email = 'yomitotm@yeah.net'
+export const githubUsername = 'yosemiteTM'
+
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "I’m Ma Yiqi, a senior at Beijing Institute of Technology, deeply committed to advancing optical imaging technologies. Over the past three years, I’ve honed my expertise in optical system design and AI-driven image processing, driven by a passion to bridge theoretical innovation with real-world applications.",
+  'I’m not just another applicant. I’m a builder, a problem-solver, and someone who will actively advance all the goals while pushing the boundaries of what exactaly can I achieve.',
+  "I started this blog to share the insights I learn every day. Most blogs will focus on what I might get in Optics,Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
 ]
 
 // blog
 export const blogHeadLine = "What I've thinking about."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "I've written something about my search, programming and life."
 
 // social links
 export type SocialLinkType = {
@@ -33,14 +34,14 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
+    name: 'wechat',
+    icon: 'wechat',
+    href: '',
   },
   {
     name: 'Bilibili',
     icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
+    href: 'https://space.bilibili.com/54783060',
   },
 ]
 

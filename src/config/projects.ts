@@ -20,16 +20,28 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    name: 'National Optoelectronic Design Competition--provincial-level second prize(team leader)',
+    description: 'Designed a portable alcohol detection device using dual-wavelength differential algorithms',
+    date: '2023',
+    location: 'Beijing',
+  },
+    {
+    name: 'Asia-Oceanic Mathematical Contest in Modeling (AOMCM)--goal at 92 points',
+    description: ' Proposed a compressed sensing model for image reconstruction under noisy conditions.',
+    date: '2022',
+    location: 'Beijing',
   },
   {
-    name: 'Zhui Ying Award',
+    name: 'Second-Class University Scholarship (twice)',
+    description: '',
+    date: '2024',
+    location: 'Beijing',
+  },
+  {
+    name: 'Therd-Class University Scholarship ',
     description: '',
     date: '2023',
-    location: 'Qingpu, Shanghai',
+    location: 'Beijing',
   },
 ]
 
@@ -39,28 +51,34 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'portable alcohol detection device using dual-wavelength differential algorithms',
+    description: 'A project on National Optoelectronic Design Competition',
+    link: { href: '', label: '' },
+    tags: ['optic-electric Monitor']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Intelligent UAV-Based Autonomous Border Patrol and Inspection System' ,
+    description: 'AI-Enhanced Swarm UAV Network: Resource-Efficient Border Patrol with Multi-Mission Coordination (Reconnaissance, Tracking, Alerting) and Air-Ground Integration',
+    link: { href: '', label: 'nosorce' },
+    tags: ['MOT', 'CV','UAV']
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
+    name: 'Research on Indoor Localization and Imaging System Based on CSI Signals',
+    description: 'Beijing Institute of Technology Challenge Cup Campus Competition Project',
+    link: { href: 'https://bit.tiaozhanbei.net/', label: 'Challenge Cup' },
+    tags: ['Signal Processing','Machine Learning','Object Detection and Localization']
   },
   {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Asia-Oceanic Mathematical Contest in Modeling (AOMCM)--goal at 92 points',
+    description: 'Proposed a compressed sensing model for image reconstruction under noisy conditions--goal at 92 points',
+    link: { href: 'https://apmcm.org/', label: 'ACMCM' },
+    tags: ['Mathematic', 'AI']
+  },
+  {
+    name: ' Indoor PM2.5 Mass Concentration Monitoring Device ',
+    description: 'Low-Cost Laser PM2.5 Monitor with Adaptive Environmental Interference Cancellation – Indoor Air Quality Management Solution',
+    link: { href: '', label: '' },
+    tags: ['Laser', 'optic-electric Monitor']
   },
 ]
 
